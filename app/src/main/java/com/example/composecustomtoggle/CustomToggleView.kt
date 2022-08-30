@@ -24,9 +24,7 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun CustomToggleButton() {
-
     var isToggled by remember { mutableStateOf(false) }
-
     Box(
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Center
